@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aashish Basnet - Student Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="js/3d-animation.js"></script>
+    <script src="js/typing-animation.js"></script>
+    <script src="js/interactive-effects.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>Aashish Basnet</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+            
+            <!-- Matrix Rain Effect -->
+            <div class="matrix-rain">
+                <div class="matrix-column">01010101<br>11001100<br>10101010<br>01110111<br>00110011<br>11010110<br>01001001<br>10110101</div>
+                <div class="matrix-column">11110000<br>00001111<br>10011001<br>01100110<br>11001100<br>00110011<br>10101010<br>01010101</div>
+                <div class="matrix-column">01010101<br>10101010<br>11110000<br>00001111<br>01100110<br>10011001<br>11001100<br>00110011</div>
+                <div class="matrix-column">10101010<br>01010101<br>00110011<br>11001100<br>01100110<br>10011001<br>00001111<br>11110000</div>
+                <div class="matrix-column">11001100<br>00110011<br>10101010<br>01010101<br>11110000<br>00001111<br>10011001<br>01100110</div>
+                <div class="matrix-column">00001111<br>11110000<br>01100110<br>10011001<br>00110011<br>11001100<br>01010101<br>10101010</div>
+                <div class="matrix-column">10011001<br>01100110<br>11001100<br>00110011<br>10101010<br>01010101<br>11110000<br>00001111</div>
+                <div class="matrix-column">01100110<br>10011001<br>00001111<br>11110000<br>11001100<br>00110011<br>01010101<br>10101010</div>
+                <div class="matrix-column">00110011<br>11001100<br>01010101<br>10101010<br>00001111<br>11110000<br>01100110<br>10011001</div>
+                <div class="matrix-column">11110000<br>00001111<br>10011001<br>01100110<br>10101010<br>01010101<br>00110011<br>11001100</div>
+            </div>
+            
+            <!-- Terminal Window -->
+            <div class="terminal-window">
+                <div class="terminal-header">
+                    <div class="terminal-buttons">
+                        <div class="terminal-button"></div>
+                        <div class="terminal-button"></div>
+                        <div class="terminal-button"></div>
+                    </div>
+                </div>
+                <div class="terminal-content">
+                    <div class="terminal-line">$ whoami</div>
+                    <div class="terminal-line">aashish_Basnet_dev</div>
+                    <div class="terminal-line">$ ls skills/</div>
+                    <div class="terminal-line">html css javascript</div>
+                    <div class="terminal-line">$ cat motivation.txt</div>
+                    <div class="terminal-line">Building the future...</div>
+                    <div class="terminal-line">$ npm run dreams</div>
+                    <div class="terminal-line">Starting dev server...<span class="terminal-cursor"></span></div>
+                </div>
+            </div>
+            
+            <!-- Code Editor Window -->
+            <div class="code-editor">
+                <div class="code-header">portfolio.js - Visual Studio Code</div>
+                <div class="code-content">
+                    <div class="code-line"><span class="code-keyword">const</span> <span class="code-function">student</span> = {</div>
+                    <div class="code-line">  <span class="code-string">name</span>: <span class="code-string">'Aashish Basnet'</span>,</div>
+                    <div class="code-line">  <span class="code-string">grade</span>: <span class="code-number">12</span>,</div>
+                    <div class="code-line">  <span class="code-string">passion</span>: <span class="code-string">'Web Dev'</span>,</div>
+                    <div class="code-line">  <span class="code-function">dream</span>() {</div>
+                    <div class="code-line">    <span class="code-keyword">return</span> <span class="code-string">'Full Stack'</span>;</div>
+                    <div class="code-line">  }</div>
+                    <div class="code-line">}; <span class="code-comment">// Ready to code!</span></div>
+                </div>
+            </div>
+            
+            <!-- Floating Code Snippets -->
+            <div class="floating-code">&lt;html&gt;</div>
+            <div class="floating-code">function()</div>
+            <div class="floating-code">{display: flex}</div>
+            <div class="floating-code">console.log()</div>
+        </div>
+        <div class="hero-content">
+            <div class="profile-image">
+                <img src="basnet.jpg" alt="Aashish Basnet" class="profile-photo">
+            </div>
+            <h1 class="hero-title">
+                Hi, I'm <span class="highlight">Aashish Basnet</span>
+            </h1>
+            <div class="typewriter-container">
+                <p class="typewriter">A passionate +2 student exploring the world of web development</p>
+            </div>
+            <p class="hero-subtitle">Currently in 12th grade, learning HTML, CSS, and JavaScript to build amazing web experiences</p>
+            <a href="#projects" class="cta-button">View My Projects</a>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        Hello! I'm Aashish, a 17-year-old student currently in my +2 (12th grade) with a deep passion for technology and web development. My journey into coding began with curiosity about how websites work, and it has grown into a genuine love for creating digital experiences.
+                    </p>
+                    <p class="about-description">
+                        As a student developer, I'm constantly learning and experimenting with new technologies. I believe that the best way to learn is by building real projects and solving problems. When I'm not studying for my board exams, you'll find me coding, watching tech tutorials, or brainstorming ideas for my next project.
+                    </p>
+                    <div class="interests">
+                        <h3>My Interests</h3>
+                        <ul>
+                            <li>Frontend Web Development</li>
+                            <li>UI/UX Design Principles</li>
+                            <li>Problem Solving & Algorithms</li>
+                            <li>Open Source Contributions</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skills-section">
+                    <h3>Currently Learning</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon html"></div>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon css"></div>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon js"></div>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon responsive"></div>
+                            <span>Responsive Design</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon git"></div>
+                            <span>Git & GitHub</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon figma"></div>
+                            <span>Figma Basics</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <p class="section-subtitle">Here are some projects I've been working on during my learning journey</p>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder calculator"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Calculator App</h3>
+                        <p class="project-description">A fully functional calculator built with HTML, CSS, and JavaScript. Features a clean interface and supports basic arithmetic operations.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <a href="#" class="project-link">View Project</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder landing"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Restaurant Landing Page</h3>
+                        <p class="project-description">A responsive landing page for a local restaurant. Features smooth animations, mobile-first design, and modern UI elements.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">Responsive</span>
+                        </div>
+                        <a href="#" class="project-link">View Project</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder todo"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">To-Do List App</h3>
+                        <p class="project-description">An interactive task management app with add, edit, and delete functionality. Includes local storage to persist tasks.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <a href="#" class="project-link">View Project</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder portfolio"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Personal Portfolio</h3>
+                        <p class="project-description">This very website! Built from scratch using semantic HTML and modern CSS techniques including animations and responsive design.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">Animations</span>
+                        </div>
+                        <a href="#" class="project-link">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">I'm always excited to connect with fellow developers and learn from the community</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>Feel free to reach out if you'd like to collaborate on a project, discuss web development, or just say hello!</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <span>aashishb442@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <span>Currently studying in Grade 12</span>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://www.github.com/aashish152207"target="_blank">
+                            GitHub
+                        </a>
+                       <a href="https://www.linkedin.com/Aashish Basnet" target="_blank">
+                           LinkedIn
+                        </a>
+                     <a href="https://www.instagram.com/aashish_basneet/"target="_blank">
+                           Instagram
+                       </a>
+                        </div>
+                  </div>
+                
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                       <script src="https://sheetdb.io/s/f/wcw79l1yvuuyj.js"></script>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>@Aashish Basnet all right</p>
+        </div>
+    </footer>
+</body>
+</html>
